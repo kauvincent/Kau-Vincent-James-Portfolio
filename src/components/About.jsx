@@ -55,7 +55,7 @@ export default function About() {
                 My journey began with a curiosity for how complex systems operate under the hood. Today, I specialize in the modern web stack, architecting solutions that balance clean typography, intuitive user experiences, and highly performant backend infrastructures.
               </p>
               <p>
-                Whether it's integrating university timetables with calendars or building dynamic student portals, I thrive on solving real-world problems. I believe that powerful software should feel effortless, pairing strong engineering with modern, futuristic design.
+                Whether it's building dynamic student portals, I thrive on solving real-world problems. I believe that powerful software should feel effortless, pairing strong engineering with modern, futuristic design.
               </p>
             </div>
             
