@@ -8,29 +8,22 @@ export default function Projects() {
       title: 'Makerere Timetable Calendar System',
       description: 'A comprehensive system synchronizing university timetables with Google Calendar through .ics feeds. Features a secure admin board for timeline management.',
       tags: ['React.js', 'Node.js', 'PostgreSQL', 'Express.js'],
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/kauvincent/Muk-Timetable-Integration-',
+      demo: 'https://timetable-calender-integration-system.onrender.com'
     },
     {
-      title: 'Student Portal System',
-      description: 'A secure, scalable web portal empowering students to manage grades, schedules, registrations, and communications seamlessly.',
-      tags: ['React', 'Tailwind CSS', 'REST APIs'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'AI Automation Projects',
-      description: 'Implementations of intelligent automations bridging diverse APIs and streamlining manual data workflows using latest tech suites.',
-      tags: ['Node.js', 'AI APIs', 'Python', 'Webhooks'],
-      github: '#',
-      demo: '#'
+      title: 'CRWN Clothing',
+      description: 'A modern fashion e-commerce platform delivering stylish apparel with a seamless shopping experience, secure authentication, and dynamic product management.',
+      tags: ['React', 'Firebase', 'Styled Components'],
+      github: 'https://github.com/kauvincent/CRWN-Clothing',
+      demo: 'https://crwn-clothing.onrender.com'
     },
     {
       title: 'Portfolio Website',
       description: 'This futuristic, premium personal portfolio showcasing projects through glassmorphism, precise animations, and strict design constraints.',
       tags: ['React', 'Framer Motion', 'Tailwind CSS'],
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/kauvincent/Kau-Vincent-James-Portfolio',
+      demo: 'https://kau-vincent-james-portfolio.onrender.com'
     }
   ];
 
