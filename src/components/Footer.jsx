@@ -23,9 +23,9 @@ export default function Footer() {
         </motion.a>
 
         <div className="text-white/40 text-xs font-mono tracking-widest uppercase flex gap-4">
-          <a href="#" className="hover:text-bright-yellow transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-bright-yellow transition-colors">Twitter</a>
-          <a href="#" className="hover:text-bright-yellow transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/kauvincentjames" className="hover:text-bright-yellow transition-colors">LinkedIn</a>
+          <a href="https://x.com/Vincentjamekau" className="hover:text-bright-yellow transition-colors">Twitter</a>
+          <a href="https://github.com/kauvincent" className="hover:text-bright-yellow transition-colors">GitHub</a>
         </div>
 
       </div>
