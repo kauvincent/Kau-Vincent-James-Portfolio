@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kau Vincent James Portfolio
 
-# Run and deploy your AI Studio app
+A personal portfolio website built with React, Vite, Tailwind CSS, and Express. The app includes a contact form that sends email notifications using Resend.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/4e9fc12a-0b5f-4f98-91f1-c4141a6ad5cc
+- Responsive portfolio layout with sections for hero, about, projects, skills, and contact
+- Custom cursor glow and particle background effects
+- Contact form handled by an Express backend
+- Email delivery via Resend
 
-## Run Locally
+## Tech stack
 
-**Prerequisites:**  Node.js
+- React
+- Vite
+- Tailwind CSS
+- Express
+- Resend
+- Node.js
 
+## Run locally
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Create a `.env` file in the root directory with the following values:
+   ```env
+   RESEND_API_KEY=your_resend_api_key
+   CONTACT_EMAIL=your_email@example.com
+   ```
+3. Start the development server:
    `npm run dev`
+
+Open `http://localhost:3000` in your browser.
+
+## Build and production
+
+1. Build the frontend:
+   `npm run build`
+2. Start the server for production:
+   `npm start`
+
+The Express server serves the built `dist` files in production mode.
+
+## API
+
+- `POST /api/contact` — submits contact form data (`name`, `email`, `message`)
+
+## Notes
+
+- No `.env` file is included in source control.
+- Make sure `RESEND_API_KEY` and `CONTACT_EMAIL` are configured before using the contact form.

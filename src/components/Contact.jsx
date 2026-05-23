@@ -147,7 +147,7 @@ export default function Contact() {
             )}
 
             {status === 'success' && (
-              <div className="flex items-center gap-2 text-green-400 text-sm font-medium bg-green-400/10 p-3 rounded">
+              <div className="flex items-center gap-2 text-white text-sm font-medium bg-green-400/10 p-3 rounded">
                 <CheckCircle size={18} /> Message sent successfully!
               </div>
             )}
